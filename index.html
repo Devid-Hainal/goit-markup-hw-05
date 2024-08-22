@@ -514,8 +514,8 @@
           <div class="form-wrraper-cont">
             <label class="modal-form-label" for="user-name">Name</label>
             <div class="model-cont-input">
-              <input class="model-input" type="text" id="user-name" required />
-              <svg class="model-icon" width="18" height="18">
+              <input class="model-input" type="text" id="user-name" name="user-name" required />
+              <svg class="model-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
@@ -540,12 +540,12 @@
           </div>
           <div class="form-wrraper-cont-coment">
             <label class="modal-form-label-coment" for="user-comment">Comment</label>
-           <textarea class="modal-textarea" id="user-comment" placeholder="Text input" ></textarea>
+           <textarea class="modal-textarea" id="user-comment" placeholder="Text input"  name="user-comment" ></textarea>
               </svg>
             </div>
           </div>
           <div class="modal-con-checkbox">
-            <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="">
+            <input class="checkbox visually-hidden" id="user-privacy" type="checkbox" name="user-privacy" value="true">
             <label class="label-checkbox" for="user-privacy">
               <span class="custom-checkbox">
               <svg class="icon-checkbox" width="10" height="8"  >
