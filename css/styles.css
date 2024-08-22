@@ -602,7 +602,7 @@ img {
   background-repeat: 50%;
   top: 24px;
   right: 24px;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: #e7e9fc;
   fill: #2e2f42;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -620,6 +620,10 @@ img {
   background-color: #404bbf;
   fill: #fff;
   border: none;
+}
+
+.close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .model-icon {
@@ -646,7 +650,7 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
@@ -713,6 +717,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
   outline: none;
 }
