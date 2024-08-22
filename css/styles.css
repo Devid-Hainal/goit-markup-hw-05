@@ -587,7 +587,7 @@ img {
   color: #ffffff;
 }
 
-.email-input::placeholder {
+.email-inputt::placeholder {
   color: #ffffff;
 }
 
@@ -742,7 +742,7 @@ img {
 
 .modal-input:focus + .model-icon,
 .modal-input:hover + .modal-icon {
-  fill: #4d5ae5;
+  fill: #4D5AE5;
 }
 
 .form-wrapper-cont-comment {
