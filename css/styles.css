@@ -559,13 +559,14 @@ img {
 
 /* footer */
 
-.form-footer {
-  margin-bottom: 16px;
+
+
+.subscribe-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .form-class-footer {
@@ -668,11 +669,10 @@ img {
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:focus{
+.modal-close-btn:focus {
   background-color: #404bbf;
   fill: #fff;
   border: none;
- 
 }
 
 .close-icon {
@@ -741,8 +741,8 @@ img {
 }
 
 .modal-input:focus,
-.modal-input:hover  {
-  fill: #4D5AE5;
+.modal-input:hover {
+  fill: #4d5ae5;
 }
 
 .form-wrapper-cont-comment {
@@ -799,7 +799,6 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-
 
 .custom-checkbox {
   width: 16px;
