@@ -274,12 +274,6 @@ img {
   background-color: #f4f4fd;
 }
 
-.contants-portfolio {
-  width: 1128px;
-  margin: 0 auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .portfolio-logo {
   font-weight: 700;
@@ -302,7 +296,6 @@ img {
 .portfolio-cart {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -559,13 +552,8 @@ img {
 
 /* footer */
 
-.footer-container {
-  padding: 20px;
-}
-
 .form-container {
-  max-width: 400px;
-  margin: 0 auto;
+  margin-left: auto;
 }
 
 .subscribe-text {
@@ -745,7 +733,7 @@ img {
 
 .modal-input:focus,
 .modal-input:hover {
- border-color: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-icon {
@@ -832,16 +820,11 @@ img {
 }
 
 .checkbox:checked + .label-checkbox > .custom-checkbox {
-  border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 
-.icon-checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
 
 .privacy-policy {
   color: #4d5ae5;
@@ -856,6 +839,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  margin: auto;
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
